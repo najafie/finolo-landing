@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فینولو | Finolo - مدیریت وظایف هوشمند</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <i data-lucide="layers" class="logo-icon"></i>
+                <span class="logo-text">فینولو</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">امکانات</a></li>
+                <li><a href="#pricing">تعرفه‌ها</a></li>
+                <li><a href="#about">درباره ما</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-ghost">ورود</button>
+                <button class="btn btn-primary">شروع رایگان</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">مدیریت پروژه به سبک <span class="gradient-text">هوشمند</span></h1>
+                <p class="hero-subtitle">
+                    فینولو پلتفرم مدیریت وظایف نسل جدید با قابلیت‌های هوش مصنوعی، 
+                    همکاری تیمی بلادرنگ و ابزارهای پیشرفته برای افزایش بهره‌وری شما
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-lg">
+                        <i data-lucide="rocket"></i>
+                        شروع رایگان ۱۴ روزه
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        <i data-lucide="play-circle"></i>
+                        مشاهده دمو
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">+۱۰,۰۰۰</span>
+                        <span class="stat-label">کاربر فعال</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">+۵۰,۰۰۰</span>
+                        <span class="stat-label">تسک مدیریت شده</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">٪۹۸</span>
+                        <span class="stat-label">رضایت مشتریان</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="preview-header">
+                        <div class="preview-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="preview-title">پیشخوان پروژه</span>
+                    </div>
+                    <div class="preview-content">
+                        <div class="kanban-board">
+                            <div class="kanban-column">
+                                <div class="column-header status-todo">در انتظار</div>
+                                <div class="task-card">
+                                    <div class="task-tag tag-design">طراحی</div>
+                                    <h4>طراحی رابط کاربری</h4>
+                                    <div class="task-meta">
+                                        <div class="avatars">
+                                            <div class="avatar">A</div>
+                                            <div class="avatar">B</div>
+                                        </div>
+                                        <span class="task-time"><i data-lucide="clock"></i> ۲ روز</span>
+                                    </div>
+                                </div>
+                                <div class="task-card">
+                                    <div class="task-tag tag-dev">توسعه</div>
+                                    <h4>پیاده‌سازی API</h4>
+                                    <div class="task-meta">
+                                        <div class="avatars">
+                                            <div class="avatar">C</div>
+                                        </div>
+                                        <span class="task-time"><i data-lucide="clock"></i> ۵ روز</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kanban-column">
+                                <div class="column-header status-progress">در حال انجام</div>
+                                <div class="task-card">
+                                    <div class="task-tag tag-marketing">بازاریابی</div>
+                                    <h4>کمپین تبلیغاتی</h4>
+                                    <div class="task-meta">
+                                        <div class="avatars">
+                                            <div class="avatar">D</div>
+                                            <div class="avatar">E</div>
+                                        </div>
+                                        <span class="task-time"><i data-lucide="clock"></i> ۳ روز</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kanban-column">
+                                <div class="column-header status-done">انجام شده</div>
+                                <div class="task-card completed">
+                                    <div class="task-tag tag-research">تحقیق</div>
+                                    <h4>تحلیل بازار</h4>
+                                    <div class="task-meta">
+                                        <div class="avatars">
+                                            <div class="avatar">F</div>
+                                        </div>
+                                        <span class="task-time"><i data-lucide="check-circle"></i> کامل</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">امکانات پیشرفته</h2>
+                <p class="section-subtitle">هر ابزاری که برای مدیریت موفق پروژه نیاز دارید</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>تیم‌سازی پیشرفته</h3>
+                    <p>ایجاد تیم‌های کاری، دعوت اعضا و مدیریت دسترسی‌ها با کنترل کامل</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <h3>چت بلادرنگ</h3>
+                    <p>ارتباط مستقیم با اعضای تیم، ارسال فایل و بحث درباره تسک‌ها</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="cpu"></i>
+                    </div>
+                    <h3>MCP Server & AI</h3>
+                    <p>دریافت پرامپت اختصاصی از هوش مصنوعی برای چیدمان بهینه پروژه</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>نمایش چندگانه</h3>
+                    <p>Kanban، گراف، لیست و تقویم - نمایش داده‌ها به سبک دلخواه شما</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="calendar"></i>
+                    </div>
+                    <h3>تقویم و Timeline</h3>
+                    <p>برنامه‌ریزی بصری با تقویم تعاملی و نمای زمانی پروژه</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="clock"></i>
+                    </div>
+                    <h3>Time Tracking</h3>
+                    <p>ردیابی دقیق زمان صرف شده برای هر تسک و گزارش‌گیری حرفه‌ای</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="bell"></i>
+                    </div>
+                    <h3>هشدارهای بلادرنگ</h3>
+                    <p>اطلاع‌رسانی فوری درباره تغییرات، ددلاین‌ها و فعالیت‌های تیم</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="git-branch"></i>
+                    </div>
+                    <h3>نمودار وابستگی</h3>
+                    <p>ترسیم روابط بین تسک‌ها و مدیریت زنجیره وابستگی‌ها</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h3>تحلیل و گزارش</h3>
+                    <p>داشبوردهای تحلیلی، نمودارهای پیشرفته و بینش‌های عمیق</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Feature Highlight -->
+    <section class="ai-feature">
+        <div class="container ai-content">
+            <div class="ai-text">
+                <div class="ai-badge">
+                    <i data-lucide="sparkles"></i>
+                    <span>هوش مصنوعی</span>
+                </div>
+                <h2>دستیار هوشمند پروژه</h2>
+                <p>
+                    با استفاده از MCP Server و هوش مصنوعی پیشرفته، فینولو می‌تواند 
+                    به صورت خودکار ساختار پروژه شما را تحلیل کرده و بهترین چیدمان 
+                    برای سکشن‌ها و تسک‌ها را پیشنهاد دهد.
+                </p>
+                <ul class="ai-features-list">
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>تحلیل خودکار نیازمندی‌های پروژه</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>پیشنهاد هوشمندانه تسک‌ها و زیرتسک‌ها</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>بهینه‌سازی گردش کار بر اساس داده‌ها</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>پیش‌بینی زمان‌بندی و منابع مورد نیاز</span>
+                    </li>
+                </ul>
+                <button class="btn btn-primary">
+                    <i data-lucide="wand-2"></i>
+                    تجربه هوش مصنوعی
+                </button>
+            </div>
+            <div class="ai-visual">
+                <div class="ai-interface">
+                    <div class="ai-chat-bubble user">
+                        <p>یک پروژه طراحی وب‌سایت فروشگاهی ایجاد کن</p>
+                    </div>
+                    <div class="ai-chat-bubble ai">
+                        <p>✅ پروژه ایجاد شد!</p>
+                        <div class="ai-suggestions">
+                            <div class="suggestion-item">
+                                <i data-lucide="circle-dot"></i>
+                                <span>تحقیق و تحلیل بازار</span>
+                            </div>
+                            <div class="suggestion-item">
+                                <i data-lucide="circle-dot"></i>
+                                <span>طراحی UX/UI</span>
+                            </div>
+                            <div class="suggestion-item">
+                                <i data-lucide="circle-dot"></i>
+                                <span>توسعه Frontend</span>
+                            </div>
+                            <div class="suggestion-item">
+                                <i data-lucide="circle-dot"></i>
+                                <span>توسعه Backend</span>
+                            </div>
+                            <div class="suggestion-item">
+                                <i data-lucide="circle-dot"></i>
+                                <span>تست و راه‌اندازی</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">پلن‌های اشتراک</h2>
+                <p class="section-subtitle">پلنی مناسب برای هر تیم و بودجه‌ای انتخاب کنید</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>رایگان</h3>
+                        <div class="price">
+                            <span class="currency">تومان</span>
+                            <span class="amount">۰</span>
+                            <span class="period">/ ماهانه</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i data-lucide="check"></i> تا ۳ عضو تیم</li>
+                        <li><i data-lucide="check"></i> ۵ پروژه فعال</li>
+                        <li><i data-lucide="check"></i> نمایش Kanban و List</li>
+                        <li><i data-lucide="check"></i> چت تیمی</li>
+                        <li><i data-lucide="x"></i> هوش مصنوعی</li>
+                        <li><i data-lucide="x"></i> Time Tracking</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">شروع رایگان</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">محبوب‌ترین</div>
+                    <div class="pricing-header">
+                        <h3>حرفه‌ای</h3>
+                        <div class="price">
+                            <span class="currency">تومان</span>
+                            <span class="amount">۲۹۰,۰۰۰</span>
+                            <span class="period">/ ماهانه</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i data-lucide="check"></i> تا ۱۵ عضو تیم</li>
+                        <li><i data-lucide="check"></i> پروژه‌های نامحدود</li>
+                        <li><i data-lucide="check"></i> تمام نمای‌ها (Kanban, Graph, Calendar, Timeline)</li>
+                        <li><i data-lucide="check"></i> چت پیشرفته تیمی</li>
+                        <li><i data-lucide="check"></i> دستیار هوش مصنوعی</li>
+                        <li><i data-lucide="check"></i> Time Tracking پیشرفته</li>
+                        <li><i data-lucide="check"></i> هشدارهای بلادرنگ</li>
+                        <li><i data-lucide="check"></i> نمودار وابستگی</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">شروع دوره آزمایشی</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>سازمانی</h3>
+                        <div class="price">
+                            <span class="currency">تومان</span>
+                            <span class="amount">۷۹۰,۰۰۰</span>
+                            <span class="period">/ ماهانه</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i data-lucide="check"></i> اعضای نامحدود</li>
+                        <li><i data-lucide="check"></i> پروژه‌های نامحدود</li>
+                        <li><i data-lucide="check"></i> تمام امکانات حرفه‌ای</li>
+                        <li><i data-lucide="check"></i> MCP Server اختصاصی</li>
+                        <li><i data-lucide="check"></i> تحلیل و گزارش پیشرفته</li>
+                        <li><i data-lucide="check"></i> پشتیبانی اختصاصی</li>
+                        <li><i data-lucide="check"></i> SSO و امنیت پیشرفته</li>
+                        <li><i data-lucide="check"></i> API دسترسی کامل</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">تماس با فروش</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container cta-content">
+            <h2>آماده افزایش بهره‌وری تیم خود هستید؟</h2>
+            <p>همین امروز به هزاران تیم موفق بپیوندید و مدیریت پروژه را متحول کنید</p>
+            <div class="cta-actions">
+                <button class="btn btn-white btn-lg">
+                    <i data-lucide="rocket"></i>
+                    شروع رایگان ۱۴ روزه
+                </button>
+                <button class="btn btn-ghost-white btn-lg">
+                    <i data-lucide="mail"></i>
+                    تماس با فروش
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i data-lucide="layers"></i>
+                        <span class="logo-text">فینولو</span>
+                    </div>
+                    <p>پلتفرم مدیریت پروژه نسل جدید با قدرت هوش مصنوعی</p>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                        <a href="#"><i data-lucide="github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>محصول</h4>
+                    <ul>
+                        <li><a href="#">امکانات</a></li>
+                        <li><a href="#">تعرفه‌ها</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>منابع</h4>
+                    <ul>
+                        <li><a href="#">مستندات</a></li>
+                        <li><a href="#">وبلاگ</a></li>
+                        <li><a href="#">آموزش‌ها</a></li>
+                        <li><a href="#">انجمن</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>شرکت</h4>
+                    <ul>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس</a></li>
+                        <li><a href="#">حریم خصوصی</a></li>
+                        <li><a href="#">شرایط استفاده</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ۱۴۰۳ فینولو. تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
